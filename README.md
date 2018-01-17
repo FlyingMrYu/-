@@ -1,6 +1,6 @@
 # 多图文件上传
 * html 
-    <div id="fileList" class="flex flex-box flex-row flex-start flex-wrap">
+  >  <div id="fileList" class="flex flex-box flex-row flex-start flex-wrap">
    			<div id="addimg" class="flex flex-column flex-centerss addimg-div">
    			<img src="../image/add.png" style="width: 22px;height: 22px;padding-top: 7px;margin-bottom: 5px;">
    			<span class="addimg-title">添加照片</span>
