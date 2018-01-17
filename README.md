@@ -7,7 +7,7 @@
   > 			</div>
   > 		</div>
   > 		<input type="file" id="fileElem" data-validate="fileElem" data-describedby="fileElem-description" multiple accept="image/*" onchange="handleFiles(this)" style="display: none">
- * js
+ *  js
           >        function handleFiles(obj) {
 	  > 			var files = obj.files,
 	  > 				img = new Image();
@@ -22,18 +22,18 @@
 	  > 				fileList.insertBefore(img, addimg);
           > 
           > 					//url blob转base64
-//   					var reader = new FileReader();
-//	 				reader.onload = function() {
-//				img.src = reader.result;
-//			 		}
-//					if(files[0]) {
-//	 				reader.readAsDataURL(files[0]);
-//	  		
-//					img.width = 60;
-//			 		img.height = 60;
-//	 				img.onload = function(e) {
-//					}
-//					fileList.insertBefore(img, addimg);
+   					var reader = new FileReader();
+	 				reader.onload = function() {
+				img.src = reader.result;
+			 		}
+					if(files[0]) {
+	 				reader.readAsDataURL(files[0]);
+	  		
+					img.width = 60;
+			 		img.height = 60;
+	 				img.onload = function(e) {
+					}
+					fileList.insertBefore(img, addimg);
 				} else if(window.FileReader) {
 					//base64
 					var reader = new FileReader();
