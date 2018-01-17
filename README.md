@@ -8,7 +8,7 @@
   		</div>
    		<input type="file" id="fileElem" data-validate="fileElem" data-describedby="fileElem-description" multiple accept="image/*" onchange="handleFiles(this)" style="display: none">
  *  js
-    function handleFiles(obj) {
+>    function handleFiles(obj) {
 	  			var files = obj.files,
 	   				img = new Image();
 	  			//blob格式
